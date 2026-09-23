@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Health Lab — Personalised Health Optimisation · Surrey</title>
+<meta name="description" content="Premium IV nutrient therapy, diagnostic blood testing and concierge nursing services across Surrey, Berkshire and surrounding areas. CQC registered.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.preloader{display:none}.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+
+<!-- preloader -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <span class="preloader-kicker">Surrey · Berkshire</span>
+    <span class="preloader-word">The Health Lab</span>
+    <span class="preloader-line"><span></span></span>
+  </div>
+</div>
+
+<!-- custom cursor -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- film grain -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- scroll progress -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ══════════════ MASTHEAD ══════════════ -->
+<header class="masthead" id="top">
+  <div class="masthead-topline">
+    <span class="masthead-meta">Est. Surrey</span>
+    <a class="wordmark" href="#top">The Health&nbsp;Lab</a>
+    <span class="masthead-meta">CQC&nbsp;Registered</span>
+  </div>
+  <nav class="masthead-nav" aria-label="Primary">
+    <a href="#services" data-spy="services">Services</a>
+    <a href="#menu" data-spy="menu">Menu &amp; Pricing</a>
+    <a href="#packages" data-spy="packages">Packages</a>
+    <a href="#faq" data-spy="faq">FAQ</a>
+    <a href="#booking" class="nav-cta" data-spy="booking">Book a Consultation</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- full-screen menu (mobile) -->
+<div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+  <nav class="overlay-nav" aria-label="Menu">
+    <a href="#services"><span>01</span>Services</a>
+    <a href="#iv-therapy"><span>02</span>IV Therapy</a>
+    <a href="#nad"><span>03</span>NAD+</a>
+    <a href="#packages"><span>04</span>Packages</a>
+    <a href="#faq"><span>05</span>FAQ</a>
+    <a href="#booking"><span>06</span>Book a Consultation</a>
+  </nav>
+  <div class="overlay-foot">
+    <a href="tel:+447305328721">+44 7305 328 721</a>
+    <a href="mailto:healthlab@surreynurse.com">healthlab@surreynurse.com</a>
+  </div>
+</div>
+
+<main>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero">
+  <span class="ghost" data-parallax="0.1" aria-hidden="true">Lab</span>
+
+  <p class="kicker reveal">Concierge Health · Édition Nº 01</p>
+
+  <h1 class="hero-title" aria-label="The art of feeling well, delivered to you.">
+    <span class="mask"><span>The art of</span></span>
+    <span class="mask"><span><em>feeling well,</em></span></span>
+    <span class="mask"><span>delivered to you.</span></span>
+  </h1>
+
+  <div class="hero-meta">
+    <p class="hero-deck reveal">Personalised health optimisation — premium IV nutrient therapy,
+    diagnostic blood testing and clinical nursing services, administered in the
+    comfort of your home, office or hotel.</p>
+    <div class="hero-actions reveal">
+      <a class="btn btn-solid magnetic" href="#booking">Book a Consultation</a>
+      <a class="btn btn-line magnetic" href="#services">Explore Services</a>
+    </div>
+  </div>
+
+  <aside class="hero-side reveal" aria-label="Contact">
+    <p><span>Tel</span><a href="tel:+447305328721">+44 7305 328 721</a></p>
+    <p><span>Email</span><a href="mailto:healthlab@surreynurse.com">healthlab@surreynurse.com</a></p>
+    <p><span>Area</span>Surrey · Berkshire</p>
+  </aside>
+
+  <div class="hero-scroll reveal" aria-hidden="true"><span>Scroll</span><i></i></div>
+
+  <ul class="hero-strip reveal" aria-label="Services at a glance">
+    <li>IV Nutrient Therapy</li>
+    <li>Diagnostic Blood Testing</li>
+    <li>Injection Protocols</li>
+    <li>Prescription Service</li>
+    <li>Health Consultations</li>
+    <li>Home · Concierge · Office</li>
+  </ul>
+</section>
+
+<!-- marquee ticker -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>IV Therapy ✦ Blood Testing ✦ NAD+ Infusions ✦ Iron Infusions ✦ Intramuscular Injections ✦ Hormone Support ✦ Weight Management ✦ Concierge Care ✦&nbsp;</span>
+    <span>IV Therapy ✦ Blood Testing ✦ NAD+ Infusions ✦ Iron Infusions ✦ Intramuscular Injections ✦ Hormone Support ✦ Weight Management ✦ Concierge Care ✦&nbsp;</span>
+  </div>
+</div>
+
+<!-- ══════════════ SERVICES (sticky label) ══════════════ -->
+<section class="section split" id="services">
+  <div class="split-label">
+    <span class="folio">№ 01</span>
+    <h2 class="section-title">The Services</h2>
+    <p class="section-sub">A considered menu of clinical treatments, each preceded by a
+    full consultation and delivered by registered healthcare professionals.</p>
+  </div>
+  <div class="split-body">
+    <ol class="index-list">
+      <li class="index-item reveal"><a href="#iv-therapy">
+        <span class="index-no">01</span>
+        <span class="index-name">IV Infusion Therapy</span>
+        <span class="index-desc">Bespoke intravenous nutrient formulations</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+      <li class="index-item reveal"><a href="#blood-testing">
+        <span class="index-no">02</span>
+        <span class="index-name">Blood Testing &amp; Phlebotomy</span>
+        <span class="index-desc">UKAS-accredited diagnostics, results in hours</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+      <li class="index-item reveal"><a href="#nad">
+        <span class="index-no">03</span>
+        <span class="index-name">NAD+ Therapy</span>
+        <span class="index-desc">Cellular-level energy &amp; repair support</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+      <li class="index-item reveal"><a href="#iron">
+        <span class="index-no">04</span>
+        <span class="index-name">Iron Infusions</span>
+        <span class="index-desc">Clinician-led replenishment, at your door</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+      <li class="index-item reveal"><a href="#further">
+        <span class="index-no">05</span>
+        <span class="index-name">Intramuscular Injections</span>
+        <span class="index-desc">Targeted vitamin &amp; nutrient protocols</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+      <li class="index-item reveal"><a href="#further">
+        <span class="index-no">06</span>
+        <span class="index-name">Health Consultations &amp; Programming</span>
+        <span class="index-desc">Bespoke plans built around your biology</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+      <li class="index-item reveal"><a href="#further">
+        <span class="index-no">07</span>
+        <span class="index-name">Medical Weight Management</span>
+        <span class="index-desc">Clinically supervised programmes</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+      <li class="index-item reveal"><a href="#further">
+        <span class="index-no">08</span>
+        <span class="index-name">Hormone Support</span>
+        <span class="index-desc">Assessment-led hormonal health services</span>
+        <span class="index-arrow" aria-hidden="true">→</span></a>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ══════════════ STATS ══════════════ -->
+<section class="stats" aria-label="At a glance">
+  <div class="stat reveal">
+    <p class="stat-fig"><span class="stat-num" data-count="8">0</span><span class="stat-unit">hr</span></p>
+    <p class="stat-cap">Fastest lab turnaround</p>
+  </div>
+  <div class="stat reveal">
+    <p class="stat-fig"><span class="stat-num" data-count="24">0</span><span class="stat-unit">hr</span></p>
+    <p class="stat-cap">Typical booking response</p>
+  </div>
+  <div class="stat reveal">
+    <p class="stat-fig"><span class="stat-num" data-count="100">0</span><span class="stat-unit">%</span></p>
+    <p class="stat-cap">Clinician-led treatments</p>
+  </div>
+  <div class="stat reveal">
+    <p class="stat-fig stat-word">CQC</p>
+    <p class="stat-cap">Registered provider</p>
+  </div>
+</section>
+
+<!-- ══════════════ IV INFUSION THERAPY ══════════════ -->
+<section class="section split feature" id="iv-therapy">
+  <div class="split-label">
+    <span class="folio">№ 02</span>
+    <h2 class="section-title">IV Infusion Therapy</h2>
+    <p class="section-sub">Every infusion is compounded to pharmaceutical standards and
+    administered by a qualified nurse following a clinical consultation.</p>
+  </div>
+  <div class="split-body">
+    <div class="prose reveal">
+      <p class="lede"><span class="dropcap">T</span>he formulary below forms the
+      foundation of our bespoke infusions. Each element is selected during your
+      consultation, then blended into a protocol written for your physiology — never
+      off the shelf.</p>
+      <p>Prescription-only medicines are never advertised and are offered solely
+      after full medical assessment. All products are sourced from licensed
+      pharmacies and GMP-certified manufacturers.</p>
+      <a class="btn btn-line magnetic" href="#booking">Discuss a Bespoke Infusion</a>
+    </div>
+    <table class="ledger reveal">
+      <caption class="ledger-caption">The Formulary</caption>
+      <thead><tr><th scope="col">Nutrient</th><th scope="col">Composition</th></tr></thead>
+      <tbody>
+        <tr><td>B Complex</td><td>B1 10mg · B2 5.1mg · B3 40mg · B5 6mg · B6 4mg</td></tr>
+        <tr><td>B12 Methylcobalamin</td><td>Methylcobalamin 5mg</td></tr>
+        <tr><td>Triple B12</td><td>Hydroxocobalamin 1mg · Methylcobalamin 2mg · Adenosylcobalamin 2mg</td></tr>
+        <tr><td>Biotin</td><td>Biotin 5mg</td></tr>
+        <tr><td>Zinc</td><td>Zinc 6mg</td></tr>
+        <tr><td>Magnesium</td><td>Magnesium 1g</td></tr>
+        <tr><td>Vitamin C</td><td>Vitamin C 500mg</td></tr>
+        <tr><td>Selenium</td><td>Selenium 100mcg</td></tr>
+        <tr><td>L-Carnitine</td><td>L-Carnitine 1g</td></tr>
+        <tr><td>Glutathione</td><td>750mg · 1500mg · 2250mg</td></tr>
+        <tr><td>Folate</td><td>Methylfolate 1mg</td></tr>
+        <tr><td>Methionine</td><td>Methionine 2g</td></tr>
+        <tr><td>Taurine</td><td>500mg · 1g</td></tr>
+        <tr><td>Glycine</td><td>Glycine 2g</td></tr>
+        <tr><td>Glutamine</td><td>Glutamine 2g</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ══════════════ BLOOD TESTING ══════════════ -->
+<section class="section" id="blood-testing">
+  <header class="section-head reveal">
+    <span class="folio">№ 03</span>
+    <h2 class="section-title">Blood Testing &amp; Phlebotomy</h2>
+    <p class="section-sub">Private, bespoke blood tests across Surrey, Berkshire and
+    surrounding areas — supported by a leading UKAS-accredited UK laboratory.</p>
+  </header>
+
+  <div class="principles">
+    <div class="principle reveal"><span class="principle-no">I</span>
+      <h3>Fast</h3><p>Results returned swiftly — sometimes in as little as eight hours —
+      so you feel informed and reassured.</p></div>
+    <div class="principle reveal"><span class="principle-no">II</span>
+      <h3>Bespoke</h3><p>Testing tailored to your specific needs, or guidance toward the
+      most appropriate panel.</p></div>
+    <div class="principle reveal"><span class="principle-no">III</span>
+      <h3>Comprehensive</h3><p>Access to an extensive range of tests through leading
+      accredited laboratories.</p></div>
+    <div class="principle reveal"><span class="principle-no">IV</span>
+      <h3>Gentle</h3><p>Your comfort is our priority — sampling only from the most
+      appropriate site, avoiding unnecessary discomfort.</p></div>
+  </div>
+
+  <div class="panel-grid reveal">
+    <p class="panel-grid-intro">Popular panels — bespoke testing arranged on request:</p>
+    <ul class="panel-list">
+      <li>Complete Male Health Panel</li>
+      <li>Complete Female Health Panel</li>
+      <li>Complete Iron Infusion Panel</li>
+      <li>Rapid Vitamin D Deficiency Test</li>
+      <li>Female Hairloss Panel</li>
+      <li>Male Hormone Panel</li>
+      <li>Female Hormone Panel</li>
+      <li>The Tiredness Test</li>
+      <li>G6PD Deficiency Panel</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════ NAD+ ══════════════ -->
+<section class="section dark" id="nad">
+  <span class="ghost ghost-light" data-parallax="0.14" aria-hidden="true">NAD+</span>
+  <header class="section-head reveal">
+    <span class="folio">№ 04</span>
+    <h2 class="section-title">NAD+ Therapy</h2>
+    <p class="section-sub">A vital coenzyme present in every cell, NAD+ drives energy
+    production, DNA repair and cellular health. Levels decline with age — our
+    infusions support optimising yours, for a more optimised <em>you</em>.</p>
+  </header>
+
+  <div class="price-tables">
+    <table class="ledger ledger-dark reveal">
+      <caption class="ledger-caption">Single Infusions</caption>
+      <thead><tr><th scope="col">Dose</th><th scope="col">Price</th></tr></thead>
+      <tbody>
+        <tr><td>250mg</td><td>£275</td></tr>
+        <tr><td>500mg</td><td>£490</td></tr>
+      </tbody>
+    </table>
+    <table class="ledger ledger-dark reveal">
+      <caption class="ledger-caption">Packages</caption>
+      <thead><tr><th scope="col">Course</th><th scope="col">Price</th></tr></thead>
+      <tbody>
+        <tr><td>250mg — 3 infusions</td><td>£785</td></tr>
+        <tr><td>250mg — 4 infusions</td><td>£990</td></tr>
+        <tr><td>500mg — 3 infusions</td><td>£1,395</td></tr>
+        <tr><td>500mg — 4 infusions</td><td>£1,765</td></tr>
+      </tbody>
+    </table>
+    <table class="ledger ledger-dark reveal">
+      <caption class="ledger-caption">Deluxe Combinations</caption>
+      <thead><tr><th scope="col">Combination</th><th scope="col">Price</th></tr></thead>
+      <tbody>
+        <tr><td>NAD+ 250mg + any standard infusion</td><td>£475</td></tr>
+        <tr><td>NAD+ 500mg + any standard infusion</td><td>£690</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="fineprint reveal">Excludes premium infusions. All treatments subject to clinical eligibility screening.</p>
+</section>
+
+<!-- ══════════════ IRON INFUSIONS ══════════════ -->
+<section class="section" id="iron">
+  <header class="section-head reveal">
+    <span class="folio">№ 05</span>
+    <h2 class="section-title">Iron Infusions</h2>
+    <p class="section-sub">A safe, efficient way to replenish iron stores when oral
+    supplements are unsuitable or have not been effective.</p>
+  </header>
+
+  <ol class="process">
+    <li class="process-step reveal">
+      <span class="process-no">i.</span>
+      <h3>Consultation</h3>
+      <p>An in-depth discussion and thorough medical screening to understand your
+      health needs and symptoms — ensuring treatment is safe, effective and enjoyable.</p>
+    </li>
+    <li class="process-step reveal">
+      <span class="process-no">ii.</span>
+      <h3>Blood Testing</h3>
+      <p>We review a current iron panel before treatment — share your existing results
+      or let us arrange testing. Treatment is delivered within one month of results.</p>
+    </li>
+    <li class="process-step reveal">
+      <span class="process-no">iii.</span>
+      <h3>The Treatment</h3>
+      <p>A qualified medical professional travels to you, delivering the infusion in
+      the calm and comfort of your chosen location.</p>
+    </li>
+    <li class="process-step reveal">
+      <span class="process-no">iv.</span>
+      <h3>Aftercare</h3>
+      <p>Full aftercare guidance and open access to our clinical team after your
+      appointment, should you have questions at any point.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ══════════════ HOW WE WORK ══════════════ -->
+<section class="section tinted" id="further">
+  <header class="section-head reveal">
+    <span class="folio">№ 06</span>
+    <h2 class="section-title">How We Work With You</h2>
+  </header>
+  <div class="triptych">
+    <div class="tryptich-item reveal">
+      <span class="big-num">1</span>
+      <h3>Consultation</h3>
+      <p>An in-depth discussion and thorough medical screening to understand your
+      health needs, symptoms and goals.</p>
+    </div>
+    <div class="tryptich-item reveal">
+      <span class="big-num">2</span>
+      <h3>The Treatment</h3>
+      <p>One of our qualified medical professionals travels to you — the service is
+      undertaken from the comfort of your chosen location.</p>
+    </div>
+    <div class="tryptich-item reveal">
+      <span class="big-num">3</span>
+      <h3>Aftercare</h3>
+      <p>Full aftercare guidance and follow-up support, with free access to our
+      clinicians even after your appointment has finished.</p>
+    </div>
+  </div>
+  <p class="fineprint reveal">Additional services — intramuscular injections, health
+  consultations &amp; programming, medical weight management and hormone support —
+  are each prescribed following individual clinical assessment.</p>
+</section>
+
+<!-- ══════════════ PACKAGES ══════════════ -->
+<section class="section" id="packages">
+  <header class="section-head reveal">
+    <span class="folio">№ 07</span>
+    <h2 class="section-title">Signature Packages</h2>
+    <p class="section-sub">Curated formulations, each adjusted to your consultation
+    findings.</p>
+  </header>
+
+  <div class="card-grid">
+    <article class="card reveal"><h3>NAD+ Deluxe</h3>
+      <ul><li>NAD+ 500mg</li><li>Magnesium</li><li>B12</li><li>Vitamin C</li><li>B Complex</li><li>Amino Acids</li><li>Glutathione</li></ul></article>
+    <article class="card reveal"><h3>Female Wellness</h3>
+      <ul><li>B12</li><li>Selenium</li><li>Magnesium</li><li>B Complex</li><li>Zinc</li><li>D3 Injection</li></ul></article>
+    <article class="card reveal"><h3>Male Wellness</h3>
+      <ul><li>B12</li><li>Magnesium</li><li>B Complex</li><li>Amino Acids</li><li>Zinc</li><li>D3 Injection</li></ul></article>
+    <article class="card reveal"><h3>Immune Support</h3>
+      <ul><li>B-Complex</li><li>Vitamin B12</li><li>High-Dose Vitamin C</li><li>Zinc</li><li>High-Dose Glutathione</li></ul></article>
+    <article class="card reveal"><h3>Full Chelation Detox</h3>
+      <ul><li>High-Dose Vitamin C</li><li>Sodium EDTA</li><li>Glutathione</li></ul></article>
+    <article class="card reveal"><h3>Antioxidant</h3>
+      <ul><li>High-Dose Vitamin C</li><li>Glutathione</li><li>CoQ10 Injection</li></ul></article>
+    <article class="card reveal"><h3>Sport Performance</h3>
+      <ul><li>B12</li><li>Electrolytes</li><li>Amino Acids</li><li>Magnesium</li><li>Selenium</li><li>Taurine</li></ul></article>
+    <article class="card reveal"><h3>The Glutathione</h3>
+      <ul><li>High-Dose Vitamin C</li><li>Glutathione</li></ul></article>
+    <article class="card reveal"><h3>The Recovery</h3>
+      <ul><li>Magnesium</li><li>B Complex</li><li>Vitamin C</li><li>Glutathione</li><li>B12</li></ul></article>
+  </div>
+</section>
+
+<!-- ══════════════ DRIP & INJECTION MENU ══════════════ -->
+<section class="section tinted" id="menu">
+  <header class="section-head reveal">
+    <span class="folio">№ 08</span>
+    <h2 class="section-title">The Drip &amp; Injection Menu</h2>
+    <p class="section-sub">Each service includes a clinical consultation, sterile
+    single-use equipment and administration by a qualified nurse. A travel fee may
+    apply based on your location.</p>
+  </header>
+
+  <div class="menu-grid">
+    <article class="menu-item reveal">
+      <h3><em>YOUnique</em> Infusion</h3>
+      <p>A bespoke package tailored to your personal requirements.</p>
+      <a class="text-link" href="#booking">Enquire →</a>
+    </article>
+    <article class="menu-item reveal">
+      <h3>Essential Vitamins</h3>
+      <p>B-Complex and Vitamin C to support general wellbeing and energy.</p>
+      <a class="text-link" href="#booking">Enquire →</a>
+    </article>
+    <article class="menu-item reveal">
+      <h3>Amino Support</h3>
+      <p>Amino acids — including taurine — with B vitamins.</p>
+      <a class="text-link" href="#booking">Enquire →</a>
+    </article>
+    <article class="menu-item reveal">
+      <h3>Classic Hydration</h3>
+      <p>Electrolyte solution to support hydration and fluid balance.</p>
+      <a class="text-link" href="#booking">Enquire →</a>
+    </article>
+    <article class="menu-item reveal">
+      <h3>Single Injections</h3>
+      <p>B12 Methylcobalamin · B12 Hydroxocobalamin · B Complex · Vitamin D3 · CoQ10 · Biotin.</p>
+      <a class="text-link" href="#booking">Enquire →</a>
+    </article>
+  </div>
+</section>
+
+<!-- ══════════════ FAQ ══════════════ -->
+<section class="section" id="faq">
+  <header class="section-head reveal">
+    <span class="folio">№ 09</span>
+    <h2 class="section-title">Questions, Answered</h2>
+  </header>
+
+  <div class="faq-list">
+    <details class="faq reveal">
+      <summary>Is IV therapy safe?<span class="faq-icon" aria-hidden="true"></span></summary>
+      <p>Yes, when administered by a qualified nurse after a health screening. We
+      follow strict hygiene protocols and medical oversight.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>How long does it take?<span class="faq-icon" aria-hidden="true"></span></summary>
+      <p>Drips typically take 30 minutes to an hour. Injections are faster — around
+      five to ten minutes.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>Will I feel results straight away?<span class="faq-icon" aria-hidden="true"></span></summary>
+      <p>Some clients report feeling refreshed or more energised shortly after, but
+      experiences vary and no effects are guaranteed.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>Can everyone have this?<span class="faq-icon" aria-hidden="true"></span></summary>
+      <p>Not always. Certain medical conditions, allergies or medications may make IV
+      therapy unsuitable — which is why we require a consultation.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>How often can I have treatment?<span class="faq-icon" aria-hidden="true"></span></summary>
+      <p>Frequency is determined by clinical assessment following a thorough
+      consultation with one of our healthcare professionals.</p>
+    </details>
+    <details class="faq reveal">
+      <summary>Are there any side effects?<span class="faq-icon" aria-hidden="true"></span></summary>
+      <p>IV therapy is generally very safe, but there are risks you should be aware of
+      before treatment. These are discussed fully during your consultation.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ══════════════ SAFETY ══════════════ -->
+<section class="section dark" id="safety">
+  <header class="section-head reveal">
+    <span class="folio">№ 10</span>
+    <h2 class="section-title">Safety &amp; Medical Oversight</h2>
+  </header>
+  <div class="two-col">
+    <ul class="check-list reveal">
+      <li>Registered medical professionals</li>
+      <li>Pharmaceutical-grade products</li>
+      <li>Clinician-reviewed protocols</li>
+      <li>Comprehensive consultation before every treatment</li>
+      <li>No treatment without eligibility screening</li>
+    </ul>
+    <div class="prose prose-light reveal">
+      <p>All products are sourced from licensed pharmacies or GMP-certified
+      manufacturers. We do not advertise any treatment for illness or disease, and
+      prescription-only medicines are offered only after full medical assessment.</p>
+      <p>Results vary from person to person. Where clinically necessary, you may be
+      referred onwards for further medical help — always following full discussion
+      with you.</p>
+      <a class="btn btn-light magnetic" href="https://www.cqc.org.uk/provider/1-25352318504/registration-info" target="_blank" rel="noopener">View CQC Registration</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ TESTIMONIALS (carousel) ══════════════ -->
+<section class="section" id="praise">
+  <header class="section-head reveal">
+    <span class="folio">№ 11</span>
+    <h2 class="section-title">Praise &amp; Testimonials</h2>
+  </header>
+
+  <div class="tq reveal" id="tq">
+    <div class="tq-viewport">
+      <blockquote class="tq-slide is-active">
+        <p>“Vicky is so nice and friendly — she couldn't do more to make the whole
+        process clear and pleasant.”</p>
+        <cite>Verified Client</cite>
+      </blockquote>
+      <blockquote class="tq-slide">
+        <p>“You can't ask for a better team. Attentive in every way and made me feel
+        very comfortable — it has to be five stars.”</p>
+        <cite>Verified Client</cite>
+      </blockquote>
+      <blockquote class="tq-slide">
+        <p>“Professional, knowledgeable and really accommodating — the whole experience
+        was easy and enjoyable. I'd happily recommend her to anyone in the Ascot area.”</p>
+        <cite>Verified Client</cite>
+      </blockquote>
+      <blockquote class="tq-slide">
+        <p>“Brilliant service. Came to my house less than 24 hours after contacting
+        them. Easy to book, easy to pay — super service from start to finish.”</p>
+        <cite>Verified Client</cite>
+      </blockquote>
+      <blockquote class="tq-slide">
+        <p>“It's always a pleasure to see Vicky — friendly, professional, supportive and
+        informative. The B12 injection has definitely helped; I feel more energy.”</p>
+        <cite>Verified Client</cite>
+      </blockquote>
+      <blockquote class="tq-slide">
+        <p>“A lovely experience in the comfort of my own home. Fully recommended — I
+        will use these treatments again.”</p>
+        <cite>Verified Client</cite>
+      </blockquote>
+    </div>
+    <div class="tq-controls">
+      <button class="tq-btn" id="tqPrev" aria-label="Previous testimonial">←</button>
+      <span class="tq-index"><span id="tqIndex">01</span> / 06</span>
+      <button class="tq-btn" id="tqNext" aria-label="Next testimonial">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ BOOKING ══════════════ -->
+<section class="section booking" id="booking">
+  <header class="section-head reveal">
+    <span class="folio">№ 12</span>
+    <h2 class="section-title">Request a Booking</h2>
+    <p class="section-sub">Tell us a little about what you're looking for and we'll be
+    in touch to arrange your consultation.</p>
+  </header>
+
+  <div class="booking-grid">
+    <form class="booking-form reveal" id="bookingForm" novalidate>
+      <div class="field">
+        <label for="bf-name">Name</label>
+        <input id="bf-name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="bf-email">Email</label>
+          <input id="bf-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="bf-phone">Phone</label>
+          <input id="bf-phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+      </div>
+      <div class="field">
+        <label for="bf-service">Service of interest</label>
+        <select id="bf-service" name="service">
+          <option>General consultation</option>
+          <option>IV Infusion Therapy</option>
+          <option>Blood Testing &amp; Phlebotomy</option>
+          <option>NAD+ Therapy</option>
+          <option>Iron Infusion</option>
+          <option>Intramuscular Injections</option>
+          <option>Weight Management</option>
+          <option>Hormone Support</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="bf-msg">Message <span class="label-note">— max 350 characters</span></label>
+        <textarea id="bf-msg" name="message" rows="4" maxlength="350"></textarea>
+        <span class="char-count" id="charCount">0 / 350</span>
+      </div>
+      <button class="btn btn-solid magnetic" type="submit">Request a Booking</button>
+      <p class="form-note" id="formNote" hidden>Thank you — your email client should now
+      open with your request. Alternatively call or WhatsApp us directly.</p>
+    </form>
+
+    <aside class="booking-aside reveal">
+      <h3>Prefer to talk?</h3>
+      <p class="aside-line"><span>Telephone</span><a href="tel:+447305328721">+44 7305 328 721</a></p>
+      <p class="aside-line"><span>Email</span><a href="mailto:healthlab@surreynurse.com">healthlab@surreynurse.com</a></p>
+      <p class="aside-line"><span>WhatsApp</span><a href="https://wa.me/447305328721" target="_blank" rel="noopener">Message us →</a></p>
+      <hr class="aside-rule">
+      <p class="aside-small">Home, concierge and office appointments across Surrey,
+      Berkshire and surrounding areas.</p>
+    </aside>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer">
+  <a class="footer-wordmark" href="#top">The Health Lab</a>
+  <nav class="footer-nav" aria-label="Footer">
+    <a href="#services">Services &amp; Pricing</a>
+    <a href="#booking">Book a Consultation</a>
+    <a href="mailto:healthlab@surreynurse.com">Compliments &amp; Complaints</a>
+    <a href="https://www.cqc.org.uk/provider/1-25352318504/registration-info" target="_blank" rel="noopener">CQC Registration</a>
+  </nav>
+  <div class="footer-contact">
+    <a href="tel:+447305328721">+44 7305 328 721</a>
+    <span class="dot" aria-hidden="true">·</span>
+    <a href="mailto:healthlab@surreynurse.com">healthlab@surreynurse.com</a>
+  </div>
+  <p class="footer-legal">The Health Lab is the trading name of Surrey Health Ltd, a
+  CQC-registered organisation. Provider ID 1-25352318504.</p>
+  <p class="footer-copy">© 2026 The Health Lab — <a href="#top">Privacy Policy</a></p>
+  <a class="to-top magnetic" href="#top" aria-label="Back to top">↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
